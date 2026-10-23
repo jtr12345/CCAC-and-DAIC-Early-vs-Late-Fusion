@@ -1,0 +1,55 @@
+n=274  d=32  5 类均衡  重复 10 次
+
+=== 生成机制：additive ===
+  [linear]
+    audio        +0.4149 ± 0.0604
+    video        +0.4526 ± 0.0393
+    early        +0.6609 ± 0.0437
+    late_eq      +0.6272 ± 0.0564
+    late_w       +0.5993 ± 0.0589
+    late_stack   +0.6637 ± 0.0362
+    early - late_w = +0.0617   为正 10/10
+  [mlp]
+    audio        +0.3885 ± 0.0469
+    video        +0.4260 ± 0.0340
+    early        +0.7032 ± 0.0302
+    late_eq      +0.5268 ± 0.0495
+    late_w       +0.4886 ± 0.0515
+    late_stack   +0.5745 ± 0.0432
+    early - late_w = +0.2146   为正 10/10
+
+=== 生成机制：interaction ===
+  [linear]
+    audio        -0.0348 ± 0.0952
+    video        -0.0217 ± 0.0804
+    early        +0.0114 ± 0.0715
+    late_eq      -0.0048 ± 0.0598
+    late_w       +0.0029 ± 0.0553
+    late_stack   +0.0310 ± 0.0686
+    early - late_w = +0.0085   为正 6/10
+  [mlp]
+    audio        -0.0536 ± 0.0665
+    video        -0.0165 ± 0.0588
+    early        +0.0966 ± 0.0736
+    late_eq      -0.0567 ± 0.0646
+    late_w       -0.0201 ± 0.0489
+    late_stack   -0.0072 ± 0.0395
+    early - late_w = +0.1168   为正 10/10
+
+=== 生成机制：null ===
+  [linear]
+    audio        +0.0234 ± 0.0533
+    video        -0.0188 ± 0.0593
+    early        +0.0200 ± 0.0802
+    late_eq      +0.0211 ± 0.0706
+    late_w       +0.0037 ± 0.0754
+    late_stack   +0.0366 ± 0.0473
+    early - late_w = +0.0163   为正 3/10
+  [mlp]
+    audio        +0.0268 ± 0.0426
+    video        -0.0304 ± 0.0553
+    early        -0.0033 ± 0.0683
+    late_eq      -0.0041 ± 0.0350
+    late_w       -0.0192 ± 0.0393
+    late_stack   +0.0078 ± 0.0534
+    early - late_w = +0.0159   为正 7/10

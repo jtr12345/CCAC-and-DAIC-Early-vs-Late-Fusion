@@ -1,0 +1,50 @@
+{
+ "early_add(linear)": {
+  "acc": 0.4224,
+  "mf1": 0.2238,
+  "qwk": 0.1375,
+  "mae": 1.2862
+ },
+ "early_nonlinear(MLP)": {
+  "acc": 0.6379,
+  "mf1": 0.2353,
+  "qwk": 0.1724,
+  "mae": 0.7603
+ },
+ "late_soft_equal": {
+  "acc": 0.4322,
+  "mf1": 0.2152,
+  "qwk": 0.1292,
+  "mae": 1.3058
+ },
+ "late_hard_vote": {
+  "acc": 0.5128,
+  "mf1": 0.2408,
+  "qwk": 0.1914,
+  "mae": 0.9142
+ },
+ "unimodal_audio": {
+  "acc": 0.3497,
+  "mf1": 0.1994,
+  "qwk": 0.0967,
+  "mae": 1.4722
+ },
+ "unimodal_video": {
+  "acc": 0.427,
+  "mf1": 0.2205,
+  "qwk": 0.1577,
+  "mae": 1.275
+ },
+ "score_history": {
+  "acc": 0.6437,
+  "mf1": 0.3427,
+  "qwk": 0.5584,
+  "mae": 0.5946
+ },
+ "persistence(t3)": {
+  "acc": 0.74,
+  "mf1": 0.3791,
+  "qwk": 0.6109,
+  "mae": 0.463
+ }
+}

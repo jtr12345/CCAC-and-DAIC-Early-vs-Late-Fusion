@@ -1,0 +1,184 @@
+[
+ {
+  "feat": "audio_basic",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "('json', 74)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "audio_chinese_hubert_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(3072,)": 4578,
+   "(0,)": 3
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "audio_wav2vec2_chinese_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(3072,)": 4578,
+   "(0,)": 3
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "audio_wav2vec2_xlsr_chinese",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(4096,)": 4578,
+   "(0,)": 3
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "audio_wavlm_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(3072,)": 4578,
+   "(0,)": 3
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_basic",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "('json', 13)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_clip_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(1024,)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_clip_large",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(1536,)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_dinov2_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(1536,)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_dinov2_small",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(768,)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_siglip_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(1536,)": 4581
+  },
+  "no_pooled": 0
+ },
+ {
+  "feat": "video_vit_mae_base",
+  "n_st": 4581,
+  "n_clip": 18324,
+  "clips_per_st": 4.0,
+  "exts": {
+   ".json": 4581,
+   ".npy": 4581,
+   ".npz": 4581
+  },
+  "dims": {
+   "(1536,)": 4581
+  },
+  "no_pooled": 0
+ }
+]
